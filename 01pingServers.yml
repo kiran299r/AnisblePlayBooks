@@ -1,11 +1,11 @@
 ---
 - hosts: all
   gather_facts: no
-  remote_user: ansible
+  remote_user: ec2-user
   tasks:
     - name: Test connection
       ping:
-      remote_user: ansible
+      remote_user: ec2-user
 ...
 
 

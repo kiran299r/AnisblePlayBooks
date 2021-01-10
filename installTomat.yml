@@ -1,4 +1,4 @@
-- hosts: Appservers
+- hosts: DBservers
   become: true
   tasks:
     - name: Install Java

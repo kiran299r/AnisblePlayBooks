@@ -1,5 +1,5 @@
 ---
-- hosts: appServers
+- hosts: DBServers
   gather_facts: false
   become: true
   tasks:
